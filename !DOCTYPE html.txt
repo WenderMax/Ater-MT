@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATER em Mato Grosso</title>
+  <style>
+    :root {
+      --verde-principal: #2e7d32;
+      --verde-claro: #a5d6a7;
+      --cinza-fundo: #f5f5f5;
+      --branco: #ffffff;
+      --sombra: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--cinza-fundo);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--verde-principal), #1b5e20);
+      color: var(--branco);
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px var(--sombra);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      background-color: var(--branco);
+      margin: 1.5rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 960px;
+      box-shadow: 0 4px 12px var(--sombra);
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    h2 {
+      color: var(--verde-principal);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+      section { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ATER em Mato Grosso</h1>
+    <p>Fortalecendo a Agricultura Familiar</p>
+  </header>
+
+  <section>
+    <h2>O que é o Programa ATER?</h2>
+    <p>O ATER (Assistência Técnica e Extensão Rural) é uma política pública que visa apoiar e orientar agricultores familiares, promovendo o desenvolvimento sustentável no campo.</p>
+  </section>
+
+  <section>
+    <h2>Presença no Estado</h2>
+    <p>Em Mato Grosso, o programa está presente em 27 municípios, atendendo diferentes realidades e culturas locais.</p>
+  </section>
+
+  <section>
+    <h2>Quem são os Beneficiários?</h2>
+    <p>Mais de 2.000 famílias atendidas, entre agricultores familiares, povos indígenas, comunidades quilombolas, mulheres e jovens rurais.</p>
+  </section>
+
+  <section>
+    <h2>Agricultores Familiares</h2>
+    <p>São 2.033 agricultores familiares beneficiados, recebendo apoio técnico e orientação para melhorar sua produção e renda.</p>
+  </section>
+
+  <section>
+    <h2>Povos Indígenas</h2>
+    <p>Atuação junto a 11 etnias em 19 terras indígenas, respeitando saberes tradicionais e promovendo autonomia produtiva.</p>
+  </section>
+
+  <section>
+    <h2>Comunidades Quilombolas</h2>
+    <p>Ações específicas para inclusão produtiva e fortalecimento das comunidades quilombolas atendidas.</p>
+  </section>
+
+  <section>
+    <h2>Protagonismo Feminino</h2>
+    <p>48% dos beneficiários são mulheres, com ações voltadas para sua valorização e autonomia no campo.</p>
+  </section>
+
+  <section>
+    <h2>Juventude Rural</h2>
+    <p>O programa apoia jovens do campo, incentivando sua permanência e protagonismo no meio rural.</p>
+  </section>
+
+  <section>
+    <h2>Produção Sustentável</h2>
+    <p>Incentivo à agroecologia, sistemas agroflorestais e práticas sustentáveis que respeitam o meio ambiente.</p>
+  </section>
+
+  <section>
+    <h2>Segurança Alimentar</h2>
+    <p>Produção voltada também para o consumo próprio, promovendo alimentação saudável e soberania alimentar.</p>
+  </section>
+
+  <section>
+    <h2>Comercialização</h2>
+    <p>Suporte na venda da produção, com acesso a feiras, mercados locais e programas institucionais como PNAE e PAA.</p>
+  </section>
+
+  <section>
+    <h2>Organização Social</h2>
+    <p>Fortalecimento de associações, cooperativas e grupos produtivos, com foco em autogestão e comercialização coletiva.</p>
+  </section>
+
+  <section>
+    <h2>Assistência Técnica</h2>
+    <p>Visitas técnicas regulares e acompanhamento contínuo, promovendo conhecimento e autonomia produtiva.</p>
+  </section>
+
+  <section>
+    <h2>Metodologia de Trabalho</h2>
+    <p>Uso de metodologias participativas, rodas de conversa, oficinas e intercâmbios para promover o aprendizado coletivo.</p>
+  </section>
+
+  <section>
+    <h2>Impactos Sociais</h2>
+    <p>Transformações reais nas comunidades, com melhorias de renda, autoestima, organização e qualidade de vida.</p>
+  </section>
+
+  <section>
+    <h2>Parceiros e Execução</h2>
+    <p>Trabalho conjunto entre organizações da sociedade civil, movimentos sociais, técnicos locais e instituições públicas.</p>
+  </section>
+
+  <section>
+    <h2>Vamos Fortalecer Juntos!</h2>
+    <p>Convidamos você a conhecer mais, apoiar e divulgar a importância da ATER para o desenvolvimento sustentável em Mato Grosso.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Programa ATER | Mato Grosso</p>
+  </footer>
+</body>
+</html>
